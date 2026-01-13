@@ -1,0 +1,85 @@
+baseURL: "https://chung1045.github.io/hugo-website/"
+title: Wai Chung Leung
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: false
+pagination:
+  pagerSize: 20
+
+taxonomies:
+  tag: tags
+
+menu:
+  main: []
+
+params:
+  description: "This is Wai Chung's Personal Website."
+  author: Wai Chung Leung
+  # googleAnalyticsID: "G-XXXXX"
+  DateFormat: "January 2006"
+  defaultTheme: dark
+  hideFooter: false
+  disableThemeToggle: false
+  ShowShareButtons: false
+  ShowReadingTime: false
+  disableSpecial1stPost: true
+  disableAnchoredHeadings: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowAllPagesInArchive: false
+  MainSections: []
+  ShowToc: false
+  disableScrollToTop: true
+  TocOpen: true
+  ShowWordCount: false
+  UseHugoToc: true
+  comments: false
+  math: true
+  profileMode:
+    enabled: true
+    title: Wai Chung Leung
+    subtitle: "He/Him · Final-year BSc Computer Science student @ HKMU
+    <br>
+    Focused on backend development and solving real-world problems"
+    imageUrl: "picture.jpg"
+    imageWidth: 160
+    imageHeight: 160
+    buttons:
+      - name: CV
+        url: cv.pdf
+      - name: Projects
+        url: https://github.com/Chung1045
+
+  socialIcons:
+    - name: CV
+      url: cv.pdf
+    - name: Email
+      url: mailto:dev-chungl@proton.me
+    - name: GitHub
+      url: https://github.com/Chung1045
+    - name: LinkedIn
+      url: www.linkedin.com/in/wai-chung-leung-17816a365
+
+  assets:
+    disableScrollBarStyle: true
+  cover:
+    hiddenInList: false
+    hiddenInSingle: true
+  label:
+    text: "Wai Chung Leung"
+    icon: favicon.ico
+    iconHeight: 18
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    guessSyntax: true
+    style: autumn
+  tableOfContents:
+    endLevel: 2
+    ordered: false
+    startLevel: 2
