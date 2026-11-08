@@ -11,7 +11,15 @@ taxonomies:
   tag: tags
 
 menu:
-  main: []
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: albums
+      name: Albums
+      url: /albums/
+      weight: 20
 
 params:
   description: "This is Wai Chung's Personal Website."
@@ -40,13 +48,15 @@ params:
   profileMode:
     enabled: true
     title: Wai Chung Leung
-    subtitle: "He/Him · Final-year BSc Computer Science student @ HKMU
+    subtitle: "He/Him · Junior Programmer - Computer Science
     <br>
     Focused on backend development and solving real-world problems"
     imageUrl: "picture.jpg"
     imageWidth: 160
     imageHeight: 160
     buttons:
+      - name: Posts
+        url: posts/
       - name: CV
         url: cv.pdf
       - name: Projects
